@@ -1,0 +1,27 @@
+<div id="wrapper">
+    <mat-toolbar id="head">
+        <mat-icon routerLink="/teacher">arrow_back_ios</mat-icon> <span class="title">{{cls}}</span>
+        <span></span></mat-toolbar>
+
+    <div id="pdfarea">
+        <pdf-viewer [src]="url" [render-text]="true" [zoom]="zoom" [show-all]="true" [original-size]="false"
+            style="width: 100%; height: 100%" [render-text]="true" (after-load-complete)="afterLoadComplete()">
+        </pdf-viewer>
+
+        <ngx-spinner bdColor="rgba(0, 0, 0, 0.8)" size="medium" color="#fff" type="square-jelly-box" id="pdfarea">
+            <p style="color: white">
+                Loading... </p>
+            <img src="../../../assets/loderimg.gif" alt="" width="100vw">
+        </ngx-spinner>
+        <div class="btnarea">
+            <button (click)="zoomIn()">
+                <img src="../../../assets/zoomin (1).png" alt="">
+            </button>
+            <button (click)="zoomOut()">
+                <img src="../../../assets/zoomin (2).png" alt="">
+            </button>
+        </div>
+       
+    </div>
+
+</div>

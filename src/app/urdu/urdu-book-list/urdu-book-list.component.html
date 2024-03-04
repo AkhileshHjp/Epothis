@@ -1,0 +1,23 @@
+<div id="wrapper">
+    <mat-toolbar id="head"> <mat-icon routerLink="/eng">arrow_back_ios</mat-icon> <span>Urdu</span>
+        <span></span></mat-toolbar>
+    
+    <div id="card_box">
+
+
+        <mat-toolbar id="card" *ngFor="let book of books" >
+            <span> {{book.Subject}} </span>  
+            <span>
+                <button mat-icon-button (click)="onView(book.File_Path)" > <mat-icon>remove_red_eye</mat-icon></button>
+                <button mat-icon-button (click)="onDownlode()">	<mat-icon>save_alt</mat-icon></button>
+            </span>
+        </mat-toolbar>
+
+       
+        <br/>
+        <br/>
+    </div>
+
+
+
+</div>
