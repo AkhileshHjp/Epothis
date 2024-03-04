@@ -55,57 +55,57 @@ export class HindiBookListComponent implements OnInit {
     {
       class: 1,
       subjet: 'hindi',
-      bookname: 'Kalrav Bhoj Class 1',
+      bookname: 'कलरव भोज कक्षा 1',
       file_nmae: 'KALRAV-Class-1.pdf'
     },
     {
       class: 2,
       subjet: 'hindi',
-      bookname: 'Kalrav Bhoj Class 2',
+      bookname: 'कलरव भोज कक्षा 2',
       file_nmae: 'KALRAV-Class-2.pdf'
     },
     {
       class: 1,
       subjet: 'hindi',
-      bookname: 'Kaksha Bundeli Class 1',
+      bookname: 'कक्षा-बुंदेली कक्षा 1',
       file_nmae: 'kaksha-bundeli-1.pdf'
     },
     {
       class: 2,
       subjet: 'hindi',
-      bookname: 'Kaksha Bundeli Class 2',
+      bookname: 'कक्षा-बुंदेली कक्षा 2',
       file_nmae: 'kaksha-bundeli-2.pdf'
     },
 
     {
       class: 3,
       subjet: 'hindi',
-      bookname: 'Gintara Class 3',
+      bookname: 'गिनतारा कक्षा 2 ',
       file_nmae: 'Gintara-3.pdf'
     },
     {
       class: 3,
       subjet: 'hindi',
-      bookname: 'Hamara Parivesh Class 3',
+      bookname: 'हमारा परिवेश कक्षा ',
       file_nmae: 'hamara-parivesh-3.pdf'
     },
     {
       class: 7,
       subjet: 'hindi',
-      bookname: 'Manjari Class 7',
+      bookname: 'मंजरी कक्षा 7',
       file_nmae: 'manjari-7.pdf'
     },
     {
       class: 8,
       subjet: 'hindi',
-      bookname: 'Manjari Class 8',
+      bookname: 'मंजरी कक्षा 8',
       file_nmae: 'manjari-8.pdf'
     },
 
     {
       class: 3,
       subjet: 'hindi',
-      bookname: 'Sanskrit Class 3',
+      bookname: 'संस्कृत कक्षा 3',
       file_nmae: 'Sanskrit-3.pdf'
     },
     {
@@ -125,7 +125,7 @@ export class HindiBookListComponent implements OnInit {
     {
       class: 2,
       subjet: 'hindi',
-      bookname: 'Gintara Class 2',
+      bookname: 'गिनतारा कक्षा 2',
       file_nmae: 'gintara-2.pdf'
     },
 
@@ -139,131 +139,131 @@ export class HindiBookListComponent implements OnInit {
     {
       class: 8,
       subjet: 'hindi',
-      bookname: 'Maths Class 8',
+      bookname: 'गणित कक्षा 8',
       file_nmae: 'गणत-ककष-Class-8.pdf'
     },
     {
       class: 7,
       subjet: 'hindi',
-      bookname: 'Maths Class 7',
+      bookname: 'गणित कक्षा 7',
       file_nmae: 'maths-Class-7.pdf'
     },
     {
       class: 6,
       subjet: 'hindi',
-      bookname: 'Science Class 6',
+      bookname: 'विज्ञान - कक्षा 6',
       file_nmae: 'science-Class-6.pdf'
     },
     {
       class: 7,
       subjet: 'hindi',
-      bookname: 'Science Class 7',
+      bookname: 'विज्ञान -  कक्षा 7',
       file_nmae: 'science-Class-6.pdf'
     },
     {
       class: 6,
       subjet: 'hindi',
-      bookname: 'Maths Class 6',
+      bookname: 'गणित- कक्षा 6',
       file_nmae: 'maths-Class-6.pdf'
     },
 
     {
       class: 5,
       subjet: 'hindi',
-      bookname: 'Gintara Class 5',
+      bookname: 'गिनतारा- कक्षा 5',
       file_nmae: 'Gintara-Class-5.pdf'
     },
     {
       class: 6,
       subjet: 'hindi',
-      bookname: 'Manjari Class 6',
+      bookname: 'मंजरी- कक्षा 6',
       file_nmae: 'manjari-Class-6.pdf'
     },
     {
       class: 5,
       subjet: 'hindi',
-      bookname: 'Kalrav Class 5',
+      bookname: 'कलरव - कक्षा 5',
       file_nmae: 'pdf-KALRAV-Class-5.pdf'
     },
 
     {
       class: 5,
       subjet: 'hindi',
-      bookname: 'EVS Class 5',
+      bookname: 'EVS कक्षा 5',
       file_nmae: 'Evs-Class-5.pdf'
     },
     {
       class: 6,
       subjet: 'hindi',
-      bookname: 'Gruh Shilp Class 6',
+      bookname: 'गृह शिल्प कक्षा 6',
       file_nmae: 'gruh-shilp-Class-6.pdf'
     },
     {
       class: 7,
       subjet: 'hindi',
-      bookname: 'Gruh Shilp Class 7',
+      bookname: 'गृह शिल्प कक्षा 7',
       file_nmae: 'gruh-shilp-class-7.pdf'
     },
 
     {
       class: 8,
       subjet: 'hindi',
-      bookname: 'Gruh Shilp Class 8',
+      bookname: 'गृह शिल्प कक्षा 8',
       file_nmae: 'gruh-shilp-class-8.pdf'
     },
     {
       class: 4,
       subjet: 'hindi',
-      bookname: 'Hamara Parivesh Class 4',
+      bookname: 'हमारा परिवेश कक्षा 4',
       file_nmae: 'HAMARA-PARIVESH-4.pdf'
     },
     {
       class: 1,
       subjet: 'hindi',
-      bookname: 'Kalrav Class 1',
+      bookname: 'कलरव कक्षा 1',
       file_nmae: 'KALRAV-Class-1.pdf'
     },
     {
       class: 2,
       subjet: 'hindi',
-      bookname: 'Kalrav Class 2',
+      bookname: 'कलरव कक्षा 2',
       file_nmae: 'KALRAV-CLASS-2.pdf'
     },
     {
       class: 3,
       subjet: 'hindi',
-      bookname: 'Kalrav Class 3',
+      bookname: 'कलरव कक्षा 3',
       file_nmae: 'Kalrav-class-3.pdf'
     },
     {
       class: 4,
       subjet: 'hindi',
-      bookname: 'Kalrav Class 4',
+      bookname: 'कलरव कक्षा 4',
       file_nmae: 'kalrav-Class-4.pdf'
     },
 
     {
       class: 4,
       subjet: 'hindi',
-      bookname: 'Khel aur Swashthy',
+      bookname: 'खेल और स्वास्थ्य ',
       file_nmae: 'khel-aur-swashthy.pdf'
     },
     {
       class: 6,
       subjet: 'hindi',
-      bookname: 'Krishi Vigyan Class 6',
+      bookname: 'कृषि विज्ञानं कक्षा 6',
       file_nmae: 'krishi-Class-6.pdf'
     },
     {
       class: 8,
       subjet: 'hindi',
-      bookname: 'Krishi Vigyan Class 8',
+      bookname: 'कृषि विज्ञानं कक्षा 8',
       file_nmae: 'krishi-Class-8.pdf'
     },
     {
       class: 7,
       subjet: 'hindi',
-      bookname: 'Krishi Vigyan Class 7',
+      bookname: 'कृषि विज्ञानं कक्षा 7',
       file_nmae: 'krishi-vigyan-Class-7.pdf'
     },
 

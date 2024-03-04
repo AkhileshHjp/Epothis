@@ -11,35 +11,41 @@
     color: whitesmoke;
     font-size: 28px;
 }
-
-#card_box {
-    width: 100%;
-    height: calc(100vh - 120px);
-    overflow-x: scroll;
+#boxarea{
+    height: calc(100vh - 60px);
+    overflow-x: auto;
 }
 
-#card {
+.box {
     width: 80%;
-    height: 70px;
+    height: auto;
+    padding: 20px 10px;
+    border-radius: 10px;
+    display: flex;
     margin: 20px auto;
     background: linear-gradient(#ffb982,#ffa895);
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-    display: flex;
-    justify-content: space-between;
-    border-radius: 10px;
-    
 }
-
-#card:hover {
+.box:hover {
     box-shadow: 0 0px 0px rgba(0, 0, 0, 0.25), 0 0px 10px rgba(0, 0, 0, 0.22);
 }
 
 
-.bookname{
-    width: 80%; /* Set your desired width */
-        overflow: hidden;
-        white-space: nowrap;
-        text-overflow: ellipsis;
-        font-size: 25px;
+.textarea1 {
+    flex: 1;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 25px;
+    line-height: 30px;
+
 }
 
+.iconarea {
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+}

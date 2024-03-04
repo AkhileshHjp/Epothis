@@ -1,25 +1,25 @@
 <div id="wrapper">
-    <mat-toolbar id="head"> <mat-icon routerLink="/hindi">arrow_back_ios</mat-icon> <span>Teacher Traning Matrial</span>
+    <mat-toolbar id="head"> <mat-icon routerLink="/">arrow_back_ios</mat-icon> <span> Teacher Traning Matrial </span>
         <span></span></mat-toolbar>
-    
-    <div id="card_box">
 
+    <div id="boxarea">
+        <div class="box" *ngFor="let book of booklist">
+            <div class="textarea1">
+                {{book.bookname}}
+            </div>
+            <div class="iconarea">
+                <button mat-icon-button (click)="onView(book.file_nmae , book.bookname)">
+                    <mat-icon>remove_red_eye</mat-icon></button>
+                <a [href]="this.base_url+book.file_nmae" download target="_blank">
+                    <button mat-icon-button><mat-icon>save_alt</mat-icon></button></a>
 
-        <mat-toolbar id="card" *ngFor="let book of booklist" >
-            <div class="bookname"> {{book.bookname}} </div>  
-            <span>
-                <button mat-icon-button (click)="onView(book.file_nmae , book.bookname)" > <mat-icon>remove_red_eye</mat-icon></button>
-               <a [href]="this.base_url+book.file_nmae" download  target="_blank">
-                <button mat-icon-button ><mat-icon>save_alt</mat-icon></button></a>
-    
-                <!-- <button mat-icon-button (click)="onView(book.file_nmae , book.class)" > <mat-icon>remove_red_eye</mat-icon></button> -->
-               <!-- <a [href]="base_url+ book.file_nmae">d</a> -->
+            </div>
+        </div>
 
-            </span>
-        </mat-toolbar>
-
-       
-        <br/>
-        <br/>
+        <br>
+        <br>
+        <br>
     </div>
+
+
 </div>
